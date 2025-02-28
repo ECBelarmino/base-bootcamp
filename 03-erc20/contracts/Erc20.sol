@@ -8,6 +8,6 @@ contract Hamburger is ERC20 {
     }
 
     function generateTokens(address destination, uint256 amount) public {
-        _mint(destination, amount);s
+        _mint(destination, amount);
     }
 }

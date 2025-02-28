@@ -10,7 +10,7 @@ async function main() {
   const contract = await hre.ethers.deployContract("Hamburger", [1234000000000000000000n]);
 
   await contract.waitForDeployment();
-
+ 
   console.log(`Deployed to ${contract.target}`);
 }
 
